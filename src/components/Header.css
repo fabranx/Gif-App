@@ -1,0 +1,15 @@
+.header{
+  min-height: 180px;
+}
+
+.light-theme .title{
+  color: #9933ff;
+}
+
+.light-theme .header{
+  background-color: #dcdcdc;
+}
+
+.dark-theme .header{
+  background-color: black;
+}

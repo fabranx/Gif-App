@@ -1,0 +1,21 @@
+body {
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+
+.light-theme{
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out, all 0.3s ease-in-out;
+}
+
+
+.dark-theme{
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-out, all 0.3s ease-out;
+}
