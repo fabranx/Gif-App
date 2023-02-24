@@ -9,7 +9,7 @@ function Banner({showBanner, setShowBanner}){
     if(showBanner){
       const timer = setTimeout(() => {
         setShowBanner(false);
-      }, 95000);
+      }, 5000);
   
       return () => clearTimeout(timer);
     }
